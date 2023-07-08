@@ -1,0 +1,101 @@
+.box-shadow{
+    box-shadow: 0 30px 50px rgba(44, 45, 48, 0.50);
+}
+.color-income{
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+}
+
+.box-shadow-img{
+    filter: drop-shadow(0 20px 30px rgba(44, 45, 48, 0.50));
+}
+.color-invest{
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+}
+.color-emergency{
+    background-image: linear-gradient(315deg, #ea2027 0%, #ee5a24 74%);
+
+}
+.color-income{
+    background: linear-gradient(to right rgb(51, 139, 147), (182, 244, 146));
+}
+.color-loan{
+    background-image: linear-gradient(315deg, #F1D46F 0%, #ED7B47 74%);
+}
+.color-donation{
+    background-image: linear-gradient(315deg, #4ca1af 0%,  #c4e0e5 74%);
+}
+
+
+
+
+.icon-spending .spending-icon{
+    width: 50px;
+}
+.features p, h1{
+    color: white;
+}
+ 
+.title h1{
+    font-size: 60px;
+    background: linear-gradient(to left, rgb(151, 194, 126), rgb(51, 139, 147));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 25px;
+}
+.container-cards{
+    width: 100%;
+    display: flex;
+    padding: 0px 7%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0px;
+}
+.cards{
+    width: 700px;
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+}
+.img{
+    margin-left: 30px;
+}
+.cards img{
+    max-height: 150%;
+    margin-top: 30%;
+}
+.details{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.details h1{
+    margin-bottom: 20px;
+}
+.icon-left img{
+    width: 40%;
+    margin-top: 70px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-right img{
+    width: 40%;
+    margin-top: 0px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-left-loan{
+    width: 40%;
+    margin-top: 70px;
+    display: flex;
+}
+.container-cards .icon-img{
+    margin: auto;
+}
